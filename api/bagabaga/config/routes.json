@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bagabaga",
+      "handler": "bagabaga.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bagabaga",
+      "handler": "bagabaga.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bagabaga",
+      "handler": "bagabaga.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

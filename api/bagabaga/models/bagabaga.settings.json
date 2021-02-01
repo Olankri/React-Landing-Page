@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "bagabagas",
+  "info": {
+    "name": "bagabaga"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
